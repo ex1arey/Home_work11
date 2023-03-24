@@ -14,3 +14,10 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+numbers = [3,5,45,97,32,22,10,19,39,43]
+result = []
+for number in numbers:
+  if number % 2 == 0:
+    result.append(number)
+    spaces = [char for char in story if char == " "]
+    print(len(spaces))
